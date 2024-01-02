@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "WELCOME",
+        "body": "Learn Before You Start Making Money",
+        "imageUrl": "/slider.png",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 2,
+        "title": "WELCOME",
+        "body": "Learn Before You Start Making Money",
+        "imageUrl": "/slider2.png",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 3,
+        "title": "WELCOME",
+        "body": "Learn Before You Start Making Money",
+        "imageUrl": "/slider3.png",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 4,
+        "title": "WELCOME",
+        "body": "Learn Before You Start Making Money",
+        "imageUrl": "/slider4.png",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      }
+    ]
+  }
+}
