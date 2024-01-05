@@ -4,7 +4,7 @@ import React from "react"
 export const Feature = () => {
   return (
     <div>
-      <div className="bg-yellow-300 w-screen h-screen">
+      <div className="bg-[#F6D365] w-screen h-screen">
         <div>
           <h1 className="text-gray-700 text-center pt-12 text-4xl">
             BEST TRADING SCHOOL BEKERJA UNTUK ANDA
