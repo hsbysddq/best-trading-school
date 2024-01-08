@@ -4,7 +4,7 @@ import TradingViewWidget from "./../Components/Widget/TradingViewWidget"
 const TradingView = () => {
   return (
     <div>
-      <div className="bg-[#333333] h-screen w-screen">
+      <div className="bg-[#333333] w-screen">
         <div className="">
           <p className="text-slate-200 text-center pt-12 text-4xl font-semibold">
             FOREX LIVE RATE & CALCULATOR
@@ -17,8 +17,10 @@ const TradingView = () => {
             </p>
           </div>
         </div>
-        <div>
-          <TradingViewWidget />
+        <div className="flex justify-center">
+          <div className="w-10/12 flex justify-center pb-10">
+            <TradingViewWidget />
+          </div>
         </div>
       </div>
     </div>

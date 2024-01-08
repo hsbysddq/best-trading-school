@@ -1,4 +1,4 @@
-import React from "react"
+import TradingViewWidget from "./../Components/Widget/TradingViewWidget"
 
 const ForexCalender = () => {
   return (
@@ -14,6 +14,12 @@ const ForexCalender = () => {
             with monthly of 10% - 20% profit <br /> from your trading account
             with very low risk.
           </p>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="w-10/12 flex justify-center pb-10">
+            <TradingViewWidget />
+          </div>
         </div>
       </div>
     </div>
