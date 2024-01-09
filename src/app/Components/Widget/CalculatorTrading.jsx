@@ -2,30 +2,30 @@
 "use client"
 import React, { useEffect, useRef } from "react"
 
-const TradingViewWidget = () => {
+const CalculatorTrading = () => {
   const containerRef = useRef()
 
   useEffect(() => {
     const script = document.createElement("script")
     script.type = "text/javascript"
     script.src =
-      "https://s3.tradingview.com/external-embedding/embed-widget-screener.js"
+      "https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js"
     script.async = true
     script.innerHTML = JSON.stringify({
+      interval: "1m",
       width: "100%",
+      isTransparent: false,
       height: "100%",
-      defaultColumn: "overview",
-      defaultScreen: "top_gainers",
-      showToolbar: true,
+      symbol: "FX:USDJPY",
+      showIntervalTabs: true,
+      displayMode: "single",
       locale: "id",
-      market: "forex",
       colorTheme: "light",
     })
 
     containerRef.current.appendChild(script)
 
     return () => {
-      // Cleanup script when the component is unmounted
       containerRef.current.removeChild(script)
     }
   }, [])
@@ -46,4 +46,4 @@ const TradingViewWidget = () => {
   )
 }
 
-export default TradingViewWidget
+export default CalculatorTrading

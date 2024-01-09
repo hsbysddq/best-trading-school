@@ -1,4 +1,4 @@
-import React from "react"
+import { IoLogoWhatsapp } from "react-icons/io"
 
 const Testimonial = () => {
   return (
@@ -18,7 +18,14 @@ const Testimonial = () => {
           </div>
 
           <div className="w-4/12 flex justify-center items-center">
-            <p>klik now</p>
+            <div>
+              <button className="flex items-center bg-white py-3 px-4 rounded-md text-sm font-semibold">
+                <div className="">
+                  <IoLogoWhatsapp className="mr-4 font-normal h-6 w-6" />
+                </div>
+                REGISTER NOW
+              </button>
+            </div>
           </div>
         </div>
       </div>
