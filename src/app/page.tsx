@@ -6,6 +6,7 @@ import TradingView from "./Components/TradingView"
 import Pricing from "./Components/Pricing"
 import ForexCalender from "./Components/ForexCalender"
 import Testimonial from "./Components/Testimonial"
+import Footer from "./Components/Footer"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Pricing />
       <ForexCalender />
       <Testimonial />
+      <Footer />
     </div>
   )
 }
