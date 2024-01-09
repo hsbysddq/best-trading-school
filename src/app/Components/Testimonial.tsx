@@ -49,12 +49,12 @@ const Testimonial = () => {
               <div className="relative w-32 h-32 mx-auto mt-6">
                 <Image alt="" src={feature3} fill className="rounded-full" />
               </div>
-              <p className="mx-4 mt-3">
+              <p className="text-slate-500 mx-4 mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 voluptatum consequatur beatae quidem officiis quod libero,
                 tempora cupiditate perspiciatis deleniti.
               </p>
-              <p className="font-semibold mt-3">ALEX</p>
+              <p className="text-slate-500 font-semibold mt-3">ALEX</p>
               <p className="text-slate-500 text-sm font-semibold mb-4">
                 WEB DEVELOPER
               </p>
@@ -63,12 +63,12 @@ const Testimonial = () => {
               <div className="relative w-32 h-32 mx-auto mt-6">
                 <Image alt="" src={feature3} fill className="rounded-full" />
               </div>
-              <p className="mx-4 mt-3">
+              <p className="text-slate-500 mx-4 mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 voluptatum consequatur beatae quidem officiis quod libero,
                 tempora cupiditate perspiciatis deleniti.
               </p>
-              <p className="font-semibold mt-3">PAUL</p>
+              <p className="text-slate-500 font-semibold mt-3">PAUL</p>
               <p className="text-slate-500 text-sm font-semibold mb-4">
                 CUMMINS
               </p>
