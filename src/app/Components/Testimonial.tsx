@@ -54,8 +54,8 @@ const Testimonial = () => {
                 voluptatum consequatur beatae quidem officiis quod libero,
                 tempora cupiditate perspiciatis deleniti.
               </p>
-              <p className="font-semibold">ALEX</p>
-              <p className="text-slate-500 mt-2 text-sm font-semibold mb-4">
+              <p className="font-semibold mt-3">ALEX</p>
+              <p className="text-slate-500 text-sm font-semibold mb-4">
                 WEB DEVELOPER
               </p>
             </div>
@@ -68,8 +68,8 @@ const Testimonial = () => {
                 voluptatum consequatur beatae quidem officiis quod libero,
                 tempora cupiditate perspiciatis deleniti.
               </p>
-              <p className="font-semibold">PAUL</p>
-              <p className="text-slate-500 mt-2 text-sm font-semibold mb-4">
+              <p className="font-semibold mt-3">PAUL</p>
+              <p className="text-slate-500 text-sm font-semibold mb-4">
                 CUMMINS
               </p>
             </div>
