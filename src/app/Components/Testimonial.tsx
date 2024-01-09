@@ -55,7 +55,7 @@ const Testimonial = () => {
                 tempora cupiditate perspiciatis deleniti.
               </p>
               <p className="font-semibold">ALEX</p>
-              <p className="text-slate-500 mt-[-12px] text-sm font-semibold mb-4">
+              <p className="text-slate-500 mt-2 text-sm font-semibold mb-4">
                 WEB DEVELOPER
               </p>
             </div>
@@ -69,7 +69,7 @@ const Testimonial = () => {
                 tempora cupiditate perspiciatis deleniti.
               </p>
               <p className="font-semibold">PAUL</p>
-              <p className="text-slate-500 text-sm font-semibold mb-4">
+              <p className="text-slate-500 mt-2 text-sm font-semibold mb-4">
                 CUMMINS
               </p>
             </div>
