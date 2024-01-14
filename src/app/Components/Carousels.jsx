@@ -18,10 +18,13 @@ const Carousels = () => {
         {bootstrap.map((item) => (
           <Carousel.Item
             key={item.id}
-            className="w-screen h-screen"
+            className="w-screen h-screen "
             interval={4000}
           >
-            <Image src={item.imageUrl} fill alt="slides" />
+            <div className="relative w-screen h-screen">
+              <Image src={item.imageUrl} fill alt="slides" objectFit="cover" />
+            </div>
+
             <Carousel.Caption className="">
               <h3>{item.title}</h3>
               <p>{item.body}</p>

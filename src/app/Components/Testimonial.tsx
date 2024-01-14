@@ -31,7 +31,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 w-screen h-screen">
+      <div className="bg-gray-100 w-screen pb-12">
         <div>
           <p className="text-gray-700 text-center pt-12 text-lg xl:text-3xl font-bold xl:font-semibold">
             Check What Our Customers Are Saying
