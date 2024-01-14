@@ -5,19 +5,19 @@ const ForexCalender = () => {
     <div>
       <div className="bg-gray-200 w-screen h-screen">
         <div>
-          <p className="text-gray-700 text-center pt-12 text-4xl font-semibold">
+          <p className="text-gray-700 text-center pt-12 text-2xl xl:text-4xl font-bold xl:font-semibold">
             GROW WITH US
           </p>
-          <p className="text-center text-gray-700 pt-1 pb-8">
+          <p className="text-center text-gray-700 pt-1 pb-8 mx-4">
             Follow our trading signals and be a winner of Forex trading. its a
-            perfect option <br /> fot those who wants to earn massive income
-            with monthly of 10% - 20% profit <br /> from your trading account
-            with very low risk.
+            perfect option fot those who wants to earn massive income with
+            monthly of 10% - 20% profit from your trading account with very low
+            risk.
           </p>
         </div>
 
         <div className="flex justify-center">
-          <div className="w-10/12 h-[460px] flex justify-center pb-10">
+          <div className="w-10/12 h-[540px] xl:h-[460px] flex justify-center pb-10">
             <TradingViewWidget />
           </div>
         </div>

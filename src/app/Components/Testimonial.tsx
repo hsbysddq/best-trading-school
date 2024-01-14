@@ -33,19 +33,19 @@ const Testimonial = () => {
       </div>
       <div className="bg-gray-100 w-screen h-screen">
         <div>
-          <p className="text-gray-700 text-center pt-12 text-3xl font-semibold">
+          <p className="text-gray-700 text-center pt-12 text-lg xl:text-3xl font-bold xl:font-semibold">
             Check What Our Customers Are Saying
           </p>
-          <p className="text-center text-gray-700">
+          <p className="text-center text-gray-700 mx-8">
             You can relay on our amazing features list and also our customer
-            services will be great <br /> experience for you without doubt and
-            in no-time
+            services will be great experience for you without doubt and in
+            no-time
           </p>
         </div>
 
         <div className="w-full">
           <div className="flex flex-col xl:flex items-center gap-8 mt-12 mx-4">
-            <div className="w-4/12 bg-white text-center">
+            <div className="w-11/12 xl:w-4/12 bg-white text-center">
               <div className="relative w-32 h-32 mx-auto mt-6">
                 <Image alt="" src={feature3} fill className="rounded-full" />
               </div>
@@ -59,7 +59,7 @@ const Testimonial = () => {
                 WEB DEVELOPER
               </p>
             </div>
-            <div className="w-4/12 bg-white text-center">
+            <div className="w-11/12 xl:w-4/12 bg-white text-center">
               <div className="relative w-32 h-32 mx-auto mt-6">
                 <Image alt="" src={feature3} fill className="rounded-full" />
               </div>
