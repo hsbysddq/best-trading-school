@@ -4,8 +4,8 @@ import { IoIosCloseCircle } from "react-icons/io"
 const SubcribePlan = () => {
   return (
     <div>
-      <div className="flex flex-row justify-center mt-10">
-        <div className="mx-4 flex flex-wrap flex-col items-stretch mb-8 w-80 rounded-md p-6 bg-white ">
+      <div className="flex flex-col xl:flex-row items-center mt-10 mx-2">
+        <div className="mx-4 flex flex-wrap flex-col xl:items-stretch mb-8 w-80 rounded-md p-6 bg-white ">
           <div className="flex flex-col">
             <span className="text-2xl font-bold text-[#3A3A3A]">Basic</span>
             <span className="text-6xl font-bold text-[#3A3A3A]">Free</span>

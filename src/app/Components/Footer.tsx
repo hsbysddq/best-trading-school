@@ -4,7 +4,7 @@ import logo from "../../../public/logo.png"
 const Footer = () => {
   return (
     <div>
-      <div className="w-screen h-screen bg-[#333333]">
+      <div className="hidden w-screen h-screen bg-[#333333]">
         <div className="flex mx-20 pt-4">
           <div className="w-5/12">
             <div className="relative h-36 w-72 mb-12">

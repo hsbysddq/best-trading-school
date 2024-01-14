@@ -6,23 +6,22 @@ import feature3 from "../../../public/feature-2.jpeg"
 export const Feature = () => {
   return (
     <div>
-      <div className="bg-[#F6D365] w-screen h-screen">
-        <div>
-          <h1 className="text-gray-700 text-center pt-14 text-4xl">
+      <div className="bg-[#F6D365] w-screen">
+        <div className="px-4">
+          <h1 className="text-gray-700 text-center pt-14 text-sm font-bold xl:text-4xl">
             BEST TRADING SCHOOL BEKERJA UNTUK ANDA
           </h1>
-          <p className="text-center text-gray-700">
+          <p className="text-center text-gray-700 text-xs">
             Kami memiliki kemampuan untuk memprediksi
             <span className="text-gray-700 font-bold"> KAPAN</span> harga akan
-            berubah arah.
-            <br /> Hindari KERUGIAN & Raih KEUNTUNGAN bersama Best Trading
-            School
+            berubah arah. Hindari KERUGIAN & Raih KEUNTUNGAN bersama Best
+            Trading School
           </p>
         </div>
 
-        <div className="flex w-full h-full justify-center gap-14 mt-16">
-          <div className="w-3/12 flex flex-col items-center">
-            <div className="relative w-[240px] h-[220px]  mb-3">
+        <div className="flex flex-col w-full justify-center mt-16 xl:w-3/12">
+          <div className="flex flex-col items-center">
+            <div className="relative w-[240px] h-[220px] mb-3">
               <Image src={feature1} alt="" fill />
             </div>
             <p className="text-center text-2xl font-semibold">3 POINT TECH</p>
@@ -32,7 +31,7 @@ export const Feature = () => {
             </p>
           </div>
 
-          <div className="w-3/12 flex flex-col items-center">
+          <div className="flex flex-col items-center xl:w-3/12">
             <div className="relative w-[240px] h-[220px]  mb-3">
               <Image src={feature3} alt="" fill />
             </div>
@@ -42,7 +41,7 @@ export const Feature = () => {
             </p>
           </div>
 
-          <div className="w-3/12 flex flex-col items-center">
+          <div className="flex flex-col items-center xl:w-3/12">
             <div className="relative w-[240px] h-[220px]  mb-3">
               <Image src={feature2} alt="" fill />
             </div>

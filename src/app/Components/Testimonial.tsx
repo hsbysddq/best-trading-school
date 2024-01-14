@@ -5,8 +5,8 @@ import feature3 from "../../../public/feature-2.jpeg"
 const Testimonial = () => {
   return (
     <div>
-      <div className="bg-yellow-300 w-screen h-44">
-        <div className="w-full h-full flex">
+      <div className="bg-yellow-300 w-screen h-44 hidden">
+        <div className="w-full h-full flex flex-col">
           <div className="w-7/12 ml-20 flex flex-col justify-center">
             <p className="text-slate-50 text-3xl font-semibold">
               100% Trusted Forex Trading Signal Provider
@@ -44,7 +44,7 @@ const Testimonial = () => {
         </div>
 
         <div className="w-full">
-          <div className="flex justify-center gap-8 mt-12">
+          <div className="flex flex-col xl:flex items-center gap-8 mt-12 mx-4">
             <div className="w-4/12 bg-white text-center">
               <div className="relative w-32 h-32 mx-auto mt-6">
                 <Image alt="" src={feature3} fill className="rounded-full" />
