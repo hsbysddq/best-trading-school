@@ -6,10 +6,10 @@ const Pricing = () => {
     <div>
       <div className="bg-[#F6D365] w-screen">
         <div>
-          <p className="text-gray-700 text-xl font-bold xl:text-4xl xl:font-semibold text-center pt-12">
+          <p className="text-gray-700 text-xl font-bold xl:text-4xl xl:font-semibold text-center pt-10 xl:pt-12">
             SIMPLE PRICING PLAN
           </p>
-          <p className="text-center text-gray-700 px-4">
+          <p className="text-center text-gray-700 px-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
             atque aperiam libero nisi. Eligendi ab est veniam voluptas unde
             aliquid.
