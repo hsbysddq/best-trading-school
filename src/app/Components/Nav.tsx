@@ -34,7 +34,7 @@ const Nav = () => {
                       src="/burger-bar.png"
                       width={30}
                       height={30}
-                      alt="logoo"
+                      alt="logo"
                       className="focus:border-none active:border-none"
                     />
                   )}
