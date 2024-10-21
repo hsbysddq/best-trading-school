@@ -11,7 +11,7 @@ export const Feature = () => {
           <h1 className="text-gray-700 text-center pt-8 xl:pt-12 text-sm font-bold xl:font-semibold xl:text-4xl">
             BEST TRADING SCHOOL BEKERJA UNTUK ANDA
           </h1>
-          <p className="text-center text-gray-700 text-xs xl:text-xl xl:mx-12 xl:mt-6">
+          <p className="text-center mt-4 text-gray-700 text-xs xl:text-xl xl:mx-12 xl:mt-6">
             Kami memiliki kemampuan untuk memprediksi
             <span className="text-gray-700 font-bold"> KAPAN</span> harga akan
             berubah arah. Hindari KERUGIAN & Raih KEUNTUNGAN bersama Best

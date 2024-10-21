@@ -18,7 +18,7 @@ const Testimonial = () => {
             </p>
           </div>
 
-          <div className="xl:w-4/12 flex justify-center items-center mb-8 xl:mb-0">
+          <div className=" xl:w-4/12 flex justify-center items-center mb-8 xl:mb-0">
             <div>
               <button className="flex items-center bg-white py-3 px-4 rounded-md text-sm font-semibold">
                 <div className="">

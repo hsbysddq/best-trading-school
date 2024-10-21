@@ -8,7 +8,7 @@ const ForexCalender = () => {
           <p className="text-gray-700 text-center pt-10 pb-2 xl:pt-12 text-2xl xl:text-4xl font-bold xl:font-semibold">
             GROW WITH US
           </p>
-          <p className="text-center text-gray-700 px-24 pt-[-4px] xl:pt-1 pb-6 xl:pb-8 mx-4 xl:mx-20">
+          <p className="text-center hidden md:block text-gray-700 px-24 pt-[-4px] xl:pt-1 pb-6 xl:pb-8 mx-4 xl:mx-20">
             Follow our trading signals and be a winner of Forex trading. its a
             perfect option fot those who wants to earn massive income with
             monthly of 10% - 20% profit from your trading account with very low

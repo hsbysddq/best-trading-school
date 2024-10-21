@@ -10,7 +10,7 @@ import Footer from "./Components/Footer"
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Nav />
       <Carousels />
       <Feature />
