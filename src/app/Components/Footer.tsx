@@ -11,7 +11,7 @@ const Footer = () => {
               <Image alt="" src={logo} fill className="" />
             </div>
 
-            <p className="text-slate-200 text-lg mt-4">
+            <p className="text-slate-200 text-lg">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
               minus molestias quia nemo voluptate architecto accusantium? Odit
               sequi officia at asperiores dolorum laborum atque et.
@@ -19,8 +19,8 @@ const Footer = () => {
           </div>
           <div className="w-7/12 flex ml-40 mt-16 gap-10">
             <div className="w-4/12">
-              <p className="text-slate-200 text-2xl font-extralight">About</p>
-              <div className="w-full text-slate-200 text-xl">
+              <p className="text-slate-200 text-2xl font-bold">About</p>
+              <div className="w-full text-slate-200 text-lg mt-6">
                 <p>History</p>
                 <p>Our Team</p>
                 <p>Brand Guidelines</p>
@@ -29,10 +29,8 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <p className="text-slate-200 text-2xl font-extralight">
-                Services
-              </p>
-              <div className="w-full text-slate-200 text-xl">
+              <p className="text-slate-200 text-2xl font-bold">Services</p>
+              <div className="w-full text-slate-200 text-lg mt-6">
                 <p>How to Order</p>
                 <p>Our Product</p>
                 <p>Order Status</p>
@@ -41,8 +39,8 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <p className="text-slate-200 text-2xl font-extralight">Other</p>
-              <div className="w-full text-slate-200 text-xl">
+              <p className="text-slate-200 text-2xl font-bold">Other</p>
+              <div className="w-full text-slate-200 text-lg mt-6">
                 <p>Contact Us</p>
                 <p>Help</p>
                 <p>Privacy</p>
