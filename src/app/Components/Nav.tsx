@@ -12,7 +12,7 @@ const Nav = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link href="/" className="ml-4">
+              <Link href="/" className="">
                 <Image
                   src="/logo.png"
                   alt="logo"
